@@ -53,7 +53,7 @@ public class RecordSet {
                 return data.get(index)[i];
             }
         }
-        return "invalid";
+        return "invalid, but its changed";
     }
 
     public String[] getColumn(String columnName){
